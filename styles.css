@@ -17,14 +17,13 @@ a, a:hover, a:visited {
   max-width: 50%;
 }
 
-
 * {
   box-sizing: border-box;
 }
 
 .column {
   float: left;
-  width: 33%;
+  width: 33.33%;
   padding: 5px;
 }
 
@@ -34,7 +33,6 @@ a, a:hover, a:visited {
   clear: both;
   display: table;
 }
-
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
