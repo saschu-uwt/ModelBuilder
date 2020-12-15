@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>ArcGIS ModelBuilder</title>
+	 	<link rel="stylesheet" href="styles.css" type="text/css"
+	</head>
+	<body>
+		<h1>ArcGIS ModelBuilder</h1>
+		<p style="margin-top:40px">ArcGIS ModelBuilder creates, edits, and manages workflows that string together sequences of geoprocessing tools. It is a visual programming language that allows users to perform repetitive tasks quickly.</p>
+		<iframe src="images/FloodPlain_Model.PNG" alt="Image of the ModelBuilder visual language" width="100%" height="512"></iframe>
+		<p>This model compares floodplain with tax parcel data to identify what urban areas are likely to be impacted by a flooding event. By entering two shapefiles, a user may apply this model to any city.</p>
+		<p>Outputs include tables of statistical data and a map. The map shows tax parcels that intersect the regulated floodplain (shown here in red) and tax parcels within 500 feet of the floodplain (shown in orange).</p>
+		<p>The examples below include Seattle and New York City as they are represented by ArcMap. The Tacoma example has been uploaded to ArcGIS Online for user interaction. Users may toggle between layers showing the tax parcels and the regulated floodplain.</p>
+		<div class="row">
+		  <div class="column">
+				<img src="images/Seattle_Flood_Parcels.png" style="max-width:100%">
+		  </div>
+		  <div class="column">
+				<img src="images/NYC_Flood_Parcels.png" style="max-width:100%">
+		  </div>
+			<div class="column">
+				<iframe src="https://uwt-gis-geotech.maps.arcgis.com/apps/instant/media/index.html?appid=8e28041dddb04390b1c8fd9942a6c044" width="100%" height="450"  frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+			</div>
+		</div>
+		<p style="font-size:.7em">Geospatial Data: <a href="https://gisdata-piercecowa.opendata.arcgis.com/datasets/tax-parcels?geometry=-122.583%2C47.261%2C-122.420%2C47.282">Pierce County Open GeoSpatial Data Portal</a>, <a href="https://gis-kingcounty.opendata.arcgis.com/datasets/king-county-parcels-parcel-area">King County GIS Open Data</a>, <a href="http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1300"> New York State GIS Portal</a>, and <a href="https://msc.fema.gov/portal/advanceSearch#searchresultsanchor"> FEMA Flood Map Service Center</a>.
+			<div class="center">
+	      <a href="https://saschu-uwt.github.io/portfolio/" target="_blank"><button class="button button1">Portfolio</button></a>
+	    </div>
+	</body>
+</html>
