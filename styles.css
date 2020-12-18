@@ -1,5 +1,6 @@
 body {
-    margin:4em;
+    margin-left: 4em;
+  	margin-right: 4em;
     padding:10;
     background-color: #D3D3D3;
     font-family: Arial, sans-serif;
@@ -49,6 +50,7 @@ a, a:hover, a:visited {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  margin-bottom: 3em;
 }
 
 /* Style the links inside the navigation bar */
