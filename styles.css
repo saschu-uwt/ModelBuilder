@@ -28,6 +28,7 @@ a, a:hover, a:visited {
   float: left;
   width: 50%;
   padding: 5px;
+  margin-bottom:1em;
 }
 
 /* Clearfix (clear floats) */
@@ -37,14 +38,44 @@ a, a:hover, a:visited {
   display: table;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .column {
     width: 100%;
   }
 }
 
+/* Containers for text */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
+  /* background-color: DodgerBlue; */
+  width:100%;
+}
 
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container > div {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 40px;
+  }
+}
+
+iframe {
+  margin-top:1.5em;
+  margin-bottom:1em;
+}
 
 /* Navigation bar */
 /* Add a black background color to the top navigation */
