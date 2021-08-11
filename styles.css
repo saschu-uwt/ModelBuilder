@@ -3,7 +3,7 @@ body {
   	margin-right: 4em;
     margin-bottom: 8em;
     line-height: 1.65;
-    background-color: #D3D3D3;
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
 
@@ -54,12 +54,11 @@ a, a:hover, a:visited {
   flex-wrap: wrap;
   justify-content: center;
   align-items: top;
-  /* background-color: DodgerBlue; */
   width:100%;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   width: 30%;
   height: auto;
   margin: 10px;
